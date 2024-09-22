@@ -4,7 +4,8 @@ click on first result
 
 click on "Click here to download" (see ex1.png)
 (important part should have a red box around it)
-this should download a file named "Git-2.46.0-64-bit.exe"
+this should download a file that looks like "Git-2.46.0-64-bit.exe"
+(new versions of git are released regularly, so don't worry if the name doesn't match exactly)
 
 run file
 
