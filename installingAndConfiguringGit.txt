@@ -1,0 +1,45 @@
+search up: "Git - Downloading Package"
+
+click on first result
+
+click on "Click here to download" (see ex1.png)
+(important part should have a red box around it)
+this should download a file named "Git-2.46.0-64-bit.exe"
+
+run file
+
+choose preferred options, but mine are listed here:
+
+Select Components - default
+Default editor - VS Code
+let git decide (most stable)
+git from command line (to use with powershell, recommended)
+bundled OpenSSH (important for connection with github)
+openssl lib
+checkout windows style
+MinTTY
+fast-forward or merge
+git credential manager (convenient whenever you need a licence)
+enable file system caching
+no experimental stuff
+
+click finish
+should install correctly in C:\Users\USER_HERE\AppData\Local\Programs\Git
+
+not done yet!
+open windows powershell (use start menu search bar)
+(also pin powershell to task bar since you'll be using it a lot from now on)
+
+type in:
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+
+don't use your school email since the school blocks git hosting websites (GitHub, GitLab, etc.)
+i would recommend making a separate "developer" email account to separate your work life from personal life
+but that's just me
+
+ok, you got git set up!
+next tutorial is in createFirstRepository.txt
+
+if you've already went through createFirstRepository.txt and connectGitToGitHub.txt,
+skip to workingWithGitHubRepository.txt
