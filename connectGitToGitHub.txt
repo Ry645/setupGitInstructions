@@ -6,7 +6,7 @@ link to github account creation tutorial: https://www.youtube.com/watch?v=Gn3w1U
 create a new repository in github
 i guess name it hello-world idk
 
-you're soon going to upload your recently made repository to this one in github
+you're soon going to upload your recently made git repository to your new one in github
 
 but first, you have to authenticate with github
 you'll need an ssh (Secure Shell) key for that
@@ -19,7 +19,7 @@ anyways
 time to generate an ssh key!
 
 go to powershell and type this:
-ssh-keygen -t ed25519 -C "ry645.dev@gmail.com"          (generates an ssh key)
+ssh-keygen -t ed25519 -C "yourEmail@gmail.com"          (generates an ssh key)
 
 log:
 Generating public/private ed25519 key pair.
@@ -53,8 +53,8 @@ you only have to do this once for each ssh key, so thankfully you won't need to 
 
 ******ADMIN PASSWORD SECTION ENDS HERE******
 
-
-now, add your ssh key:
+now, close admin powershell and go back to regular powershell
+add your ssh key:
 ssh-add C:\Users\USER_HERE\.ssh\id_ed25519
 
 log:
@@ -91,7 +91,7 @@ this makes it so github's default branch is the same as git's default branch
 makes things faster
 
 now, you'll have to test the connection
-this test, unlike others, is required
+this test is required
 powershell needs your approval before it can actually connect to github
 
 type this command:

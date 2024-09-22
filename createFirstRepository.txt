@@ -32,8 +32,8 @@ your file should be in red
 this file is not tracked by git yet
 
 to track it, simply type:
-git add filename        (adds/stages file to git repo (aka repository))
-                        (adding a file and staging a file are the same thing)
+git add filenameOrFolder        (adds/stages file to git repo (aka repository))
+                                (adding a file and staging a file are the same thing)
 
 your file is now tracked by git AND checked into the index (the stage)
 
@@ -97,12 +97,14 @@ this adds all of your files to the index, tracked and untracked
 
 here's some keywords that I found are important to search up (prefacing each with "git"):
 branch
+merge
 merge conflict                      (can be pretty scary)
 how to prevent merge conflicts
 revert
 reset                               (be careful, this deletes revision history - but not your files)
 checkout
 commit hash
+.gitignore
 
 
 you can also add "-help" as a parameter to commands, and documentation will print for you:
