@@ -78,13 +78,13 @@ Identity added: C:\Users\Ryan\.ssh\id_ed25519 (ry645.dev@gmail.com)
 go back to github  
 
 click on your profile photo (top right corner)  
-[exampleImages\ex4.png](exampleImages\ex4.png)  
+[exampleImages/ex4.png](https://github.com/Ry645/setupGitInstructions/blob/master/exampleImages/ex4.png)  
 
 go to settings (ex5.png)  
-[exampleImages\ex5.png](exampleImages\ex5.png)  
+[exampleImages/ex5.png](https://github.com/Ry645/setupGitInstructions/blob/master/exampleImages/ex5.png)  
 
 SSH and GPG keys (ex6.png)  
-[exampleImages\ex6.png](exampleImages\ex6.png)  
+[exampleImages/ex6.png](https://github.com/Ry645/setupGitInstructions/blob/master/exampleImages/ex6.png)  
 
 New SSH key  
 

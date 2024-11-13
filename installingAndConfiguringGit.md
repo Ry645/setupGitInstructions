@@ -7,7 +7,7 @@ click on first result
 click on "Click here to download" (important part should have a red box around it)
 </pre>
 
-[example image 1 (ex1.png)](exampleImages\ex1.png)
+[ex1.png](https://github.com/Ry645/setupGitInstructions/blob/master/exampleImages/ex1.png)
 
 <pre>
 this should download a file named "Git-2.46.0-64-bit.exe"
@@ -46,8 +46,10 @@ but that's just me
 </pre>
 
 ok, you got git set up!  
-next tutorial is in [createFirstRepository.md](createFirstRepository.md)  
+next tutorial is in [createFirstRepository.md](https://github.com/Ry645/setupGitInstructions/blob/master/createFirstRepository.md)  
 
-if you've already went through [createFirstRepository.md](createFirstRepository.md) and [connectGitToGitHub.md](createFirstRepository.md),  
-skip to [workingWithGitHubRepository.md](workingWithGitHubRepository.md)  
+if you've already went through
+[createFirstRepository.md](https://github.com/Ry645/setupGitInstructions/blob/master/createFirstRepository.md)
+and [connectGitToGitHub.md](https://github.com/Ry645/setupGitInstructions/blob/master/connectGitToGitHub.md),  
+skip to [workingWithGitHubRepository.md](https://github.com/Ry645/setupGitInstructions/blob/master/workingWithGitHubRepository.md)
 

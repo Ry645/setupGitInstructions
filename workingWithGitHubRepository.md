@@ -15,7 +15,7 @@ once you get there, the website address should be like: https://github.com/GITHU
 
 click on big green "<> Code" button and click on "SSH"
 </pre>
-[exampleImages\ex7.png](exampleImages\ex7.png)
+[exampleImages/ex7.png](https://github.com/Ry645/setupGitInstructions/blob/master/exampleImages/ex7.png)
 <pre>
 copy url
 

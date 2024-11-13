@@ -17,7 +17,7 @@ creates a hidden .git folder you can see by enabling hidden files in the view dr
 DON'T DELETE .GIT OR ELSE ALL YOUR REVISION HISTORY WILL GO BYE BYE  
 </pre>
 
-[exampleImages\ex2.png](exampleImages\ex2.png)
+[exampleImages/ex2.png](https://github.com/Ry645/setupGitInstructions/blob/master/exampleImages/ex2.png)
 
 
 ## First Commit
@@ -69,7 +69,7 @@ gitk
 this should open a window that looks somewhat like this:
 </pre>
 
-[exampleImages\ex3.png](exampleImages\ex3.png)
+[exampleImages/ex3.png](https://github.com/Ry645/setupGitInstructions/blob/master/exampleImages/ex3.png)
 
 <pre>
 eventually, with enough commits and connection to github, your window will look a lot more like mine,
@@ -134,4 +134,4 @@ git branch -help
 [yes i learned all of this from a w3schools tutorial please don't judge](https://www.w3schools.com/git/)
 
 
-next tutorial is in [connectGitToGithub.md](connectGitToGithub.md)
+next tutorial is in [connectGitToGitHub.md](connectGitToGitHub.md)
