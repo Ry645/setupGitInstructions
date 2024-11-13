@@ -1,3 +1,5 @@
+## Init First Repository
+<pre>
 create a new folder anywhere (I personally use my documents folder)
 copy folder's path
 
@@ -10,11 +12,16 @@ cd C:\whatever\path\you\just\copied         (changes active directory)
 git init                                    (creates git repository in directory)
 
 you just made your first repository!
-creates a hidden .git folder you can see by enabling hidden files in the view dropdown (see in ex2.png)
-DON'T DELETE .GIT OR ELSE ALL YOUR REVISION HISTORY WILL GO BYE BYE
+
+creates a hidden .git folder you can see by enabling hidden files in the view dropdown  
+DON'T DELETE .GIT OR ELSE ALL YOUR REVISION HISTORY WILL GO BYE BYE  
+</pre>
+
+[exampleImages\ex2.png](exampleImages\ex2.png)
 
 
-
+## First Commit
+<pre>
 next text will show a small practice example to get you started with making commits:
 
 create a txt file
@@ -32,8 +39,8 @@ your file should be in red
 this file is not tracked by git yet
 
 to track it, simply type:
-git add filenameOrFolder        (adds/stages file to git repo (aka repository))
-                                (adding a file and staging a file are the same thing)
+git add filename        (adds/stages file to git repo (aka repository))
+                        (adding a file and staging a file are the same thing)
 
 your file is now tracked by git AND checked into the index (the stage)
 
@@ -59,10 +66,19 @@ now, check your commit history
 type:
 gitk
 
-this should open a window that looks somewhat like this: ex3.png
+this should open a window that looks somewhat like this:
+</pre>
+
+[exampleImages\ex3.png](exampleImages\ex3.png)
+
+<pre>
 eventually, with enough commits and connection to github, your window will look a lot more like mine,
 but right now there should be only one commit, shown in the top-left-corner, next to "master" 
+</pre>
 
+
+## Commiting again
+<pre>
 a few more steps to take after this
 
 edit your text file however you want it, enough to be recognizably different
@@ -94,27 +110,28 @@ Leading up on that, if you need to add all of your tracked and untracked files t
 git add -A
 
 this adds all of your files to the index, tracked and untracked
+</pre>
 
+
+## Important Keywords
+<pre>
 here's some keywords that I found are important to search up (prefacing each with "git"):
 branch
-merge
 merge conflict                      (can be pretty scary)
 how to prevent merge conflicts
 revert
 reset                               (be careful, this deletes revision history - but not your files)
 checkout
 commit hash
-.gitignore
 
 
 you can also add "-help" as a parameter to commands, and documentation will print for you:
 git branch -help
+</pre>
 
 
 
-
-yes i learned all of this from a w3schools tutorial please don't judge:
-https://www.w3schools.com/git/
+[yes i learned all of this from a w3schools tutorial please don't judge](https://www.w3schools.com/git/)
 
 
-next tutorial is in connectGitToGithub.txt
+next tutorial is in [connectGitToGithub.md](connectGitToGithub.md)

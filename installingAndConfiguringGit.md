@@ -1,11 +1,16 @@
-search up: "Git - Downloading Package"
+## Installation
+<pre>
+Search up: "Git - Downloading Package"
 
 click on first result
 
-click on "Click here to download" (see ex1.png)
-(important part should have a red box around it)
-this should download a file that looks like "Git-2.46.0-64-bit.exe"
-(new versions of git are released regularly, so don't worry if the name doesn't match exactly)
+click on "Click here to download" (important part should have a red box around it)
+</pre>
+
+[example image 1 (ex1.png)](exampleImages\ex1.png)
+
+<pre>
+this should download a file named "Git-2.46.0-64-bit.exe"
 
 run file
 
@@ -26,21 +31,23 @@ no experimental stuff
 
 click finish
 should install correctly in C:\Users\USER_HERE\AppData\Local\Programs\Git
+(or wherever else you want it)
 
 not done yet!
 open windows powershell (use start menu search bar)
-(also pin powershell to task bar since you'll be using it a lot from now on)
 
 type in:
 git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
 
-don't use your school email since the school blocks git hosting websites (GitHub, GitLab, etc.)
+don't use your school email since the school blocks pushing to git hosting websites (GitHub, GitLab, etc.)
 i would recommend making a separate "developer" email account to separate your work life from personal life
 but that's just me
+</pre>
 
-ok, you got git set up!
-next tutorial is in createFirstRepository.txt
+ok, you got git set up!  
+next tutorial is in [createFirstRepository.md](createFirstRepository.md)  
 
-if you've already went through createFirstRepository.txt and connectGitToGitHub.txt,
-skip to workingWithGitHubRepository.txt
+if you've already went through [createFirstRepository.md](createFirstRepository.md) and [connectGitToGitHub.md](createFirstRepository.md),  
+skip to [workingWithGitHubRepository.md](workingWithGitHubRepository.md)  
+
